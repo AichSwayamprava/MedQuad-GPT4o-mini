@@ -61,6 +61,7 @@ This project focuses on developing a medical chatbot designed to empower patient
 ---
 
 ### 3.2 Data Cleaning and Preprocessing  
+ - ![Image description](https://github.com/AichSwayamprava/MedQuad-GPT4o-mini/raw/main/medquad%20df.png)
 
 - **Cleaning**: 
   - Removed missing and duplicate values.
@@ -94,7 +95,8 @@ This project focuses on developing a medical chatbot designed to empower patient
   - **Token-Level Accuracy**: Measures token overlap between answers.  
   - **Accuracy and F1 Score**: Evaluates overall token classification performance.  
 
-- **Comparison**: The fine-tuned model's performance was compared with zero-shot, one-shot, and few-shot results to evaluate the impact of fine-tuning.  
+- **Comparison**: The fine-tuned model's performance was compared with zero-shot, one-shot, and few-shot results to evaluate the impact of fine-tuning.
+- ![Image description](https://github.com/AichSwayamprava/MedQuad-GPT4o-mini/blob/main/performance%20comparison.png?raw=true)
 
 - **Human Evaluation**: Evaluators assessed the chatbot on:
   - Medical Accuracy
@@ -102,6 +104,7 @@ This project focuses on developing a medical chatbot designed to empower patient
   - Clarity
   - Empathy
   - Response Relevance
+  - ![Image description](https://github.com/AichSwayamprava/MedQuad-GPT4o-mini/blob/main/Human%20evaluation%20rating.png?raw=true)
 
 ---
 
