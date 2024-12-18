@@ -1,23 +1,16 @@
 # Enhancing Medical Question Answering with Fine-Tuned GPT-4o-Mini Model on MedQuad Dataset
 
-Code and resources for enhancing medical question answering (QA) using a fine-tuned GPT-4o-mini model.
+Code and resources for enhancing medical question answering (QA) using a fine-tuned GPT-4o-mini model. 
 
 ## Dependency Installation
 
 Before running the project, ensure that all the required dependencies are installed. Follow the steps below to set up your environment:
 
-pip install openai datasets jsonlines sentence-transformers nltk scikit-learn
-python -m nltk.downloader punkt
-
-This project uses OpenAI's API key to finetune the GPT-4o-mini model. So, create an API key and keep it saved somewhere safe and accesible. 
-
-
+`This project uses OpenAI's API key to finetune the GPT-4o-mini model. So, create an API key and keep it saved somewhere safe and accesible.` 
 
 ### Install Python Libraries
 Run the following command to install the required Python libraries:
-```bash
-pip install openai datasets jsonlines sentence-transformers nltk scikit-learn
-
+`pip install openai datasets jsonlines sentence-transformers nltk scikit-learn`
 
 ## Project Description
 
@@ -68,6 +61,7 @@ This project focuses on developing a medical chatbot designed to empower patient
 ---
 
 ### 3.2 Data Cleaning and Preprocessing  
+
 - **Cleaning**: 
   - Removed missing and duplicate values.
 - **Data Sampling**: A random subset of 1,000 records was selected for experiments.  
@@ -120,3 +114,5 @@ This project focuses on developing a medical chatbot designed to empower patient
   Fine-tuning outperformed prompt-based methods, but challenges in exact match accuracy and handling ambiguous queries remain areas for improvement.  
 
 ---  
+
+-**NOTE**: **Complete code and Research paper has been uploaded in this repository for complete work.**
