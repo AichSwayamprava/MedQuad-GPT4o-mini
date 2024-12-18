@@ -19,13 +19,13 @@ Run the following command to install the required Python libraries:
 pip install openai datasets jsonlines sentence-transformers nltk scikit-learn
 
 
-## **Project Description**
+## Project Description
 
 This project investigates the application of fine-tuning the GPT-4o-mini language model for medical QA tasks using the MedQuad dataset. The primary objective is to compare the effectiveness of fine-tuning against prompt-based learning approaches (zero-shot, one-shot, few-shot) in improving medical QA performance.
 
 ---
 
-## **Contents**
+## Contents
 
 1. [Introduction](#introduction)  
 2. [Problems and Solutions](#problems-and-solutions)  
@@ -38,13 +38,13 @@ This project investigates the application of fine-tuning the GPT-4o-mini languag
 
 ---
 
-## **1. Introduction**
+## 1. Introduction
 
 This project focuses on developing a medical chatbot designed to empower patients with immediate access to medical information and services. Traditional methods for obtaining health information—such as scheduling appointments or online searches—can be time-consuming and overwhelming. The chatbot leverages the power of artificial intelligence (AI) and natural language processing (NLP) techniques, utilizing OpenAI's GPT-4o-mini model, to address this challenge. By offering an interactive and personalized platform, it aims to enhance patient awareness and promote timely healthcare interventions.
 
 ---
 
-## **2. Problems and Solutions**
+## 2. Problems and Solutions
 
 ### Challenges in Healthcare  
 - **Limited Access to Healthcare Professionals**: Patients often face long wait times, geographical barriers, or financial constraints, leading to delays in diagnosis and treatment.  
@@ -55,7 +55,7 @@ This project focuses on developing a medical chatbot designed to empower patient
 
 ---
 
-## **3. Methodology**
+## 3. Methodology
 
 ### 3.1 Data Collection  
 - **Dataset**: The MedQuad dataset, curated for medical QA tasks, was used in this project.  
@@ -111,7 +111,7 @@ This project focuses on developing a medical chatbot designed to empower patient
 
 ---
 
-## **4. Results**
+## 4. Results
 
 - **Performance Analysis**:  
   Fine-tuning GPT-4o-mini resulted in significant improvements across most evaluation metrics, particularly in semantic similarity and response relevance. The model demonstrated enhanced understanding of medical terminology, relationships, and nuanced language, leading to more comprehensive answers.  
